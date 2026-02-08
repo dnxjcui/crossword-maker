@@ -1,0 +1,398 @@
+{
+  "seed": 123,
+  "grid": {
+    "rows": 15,
+    "cols": 15,
+    "cells": [
+      [
+        "#",
+        "O",
+        "C",
+        "C",
+        "I",
+        "P",
+        "I",
+        "T",
+        "A",
+        "L",
+        "#",
+        "#",
+        "F",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "F",
+        "#",
+        "G",
+        "Y",
+        "R",
+        "U",
+        "S"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "F",
+        "#",
+        "L",
+        "#",
+        "O",
+        "#",
+        "E"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "M",
+        "#",
+        "L",
+        "E",
+        "S",
+        "I",
+        "O",
+        "N",
+        "#",
+        "R"
+      ],
+      [
+        "#",
+        "#",
+        "E",
+        "#",
+        "#",
+        "Y",
+        "#",
+        "#",
+        "R",
+        "#",
+        "A",
+        "#",
+        "T",
+        "#",
+        "O"
+      ],
+      [
+        "#",
+        "#",
+        "X",
+        "#",
+        "R",
+        "E",
+        "F",
+        "L",
+        "E",
+        "X",
+        "#",
+        "#",
+        "A",
+        "#",
+        "T"
+      ],
+      [
+        "T",
+        "#",
+        "C",
+        "#",
+        "#",
+        "L",
+        "#",
+        "#",
+        "N",
+        "#",
+        "C",
+        "#",
+        "L",
+        "#",
+        "O"
+      ],
+      [
+        "E",
+        "#",
+        "I",
+        "N",
+        "H",
+        "I",
+        "B",
+        "I",
+        "T",
+        "I",
+        "O",
+        "N",
+        "#",
+        "#",
+        "N"
+      ],
+      [
+        "M",
+        "#",
+        "T",
+        "#",
+        "#",
+        "N",
+        "#",
+        "#",
+        "#",
+        "#",
+        "G",
+        "#",
+        "S",
+        "#",
+        "I"
+      ],
+      [
+        "P",
+        "#",
+        "A",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "N",
+        "#",
+        "Y",
+        "#",
+        "N"
+      ],
+      [
+        "O",
+        "#",
+        "T",
+        "#",
+        "#",
+        "G",
+        "A",
+        "N",
+        "G",
+        "L",
+        "I",
+        "O",
+        "N",
+        "#",
+        "#"
+      ],
+      [
+        "R",
+        "#",
+        "I",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "T",
+        "#",
+        "A",
+        "#",
+        "#"
+      ],
+      [
+        "A",
+        "X",
+        "O",
+        "N",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "I",
+        "#",
+        "P",
+        "#",
+        "#"
+      ],
+      [
+        "L",
+        "#",
+        "N",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "O",
+        "#",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "N",
+        "E",
+        "U",
+        "R",
+        "O",
+        "N",
+        "#",
+        "E",
+        "#",
+        "#"
+      ]
+    ]
+  },
+  "metadata": {
+    "placed": 17,
+    "total": 30,
+    "best_attempt": 56,
+    "attempts": 200,
+    "intersections": 18,
+    "score": 0.42,
+    "runtime_ms": 948.4
+  },
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "answer": "OCCIPITAL",
+        "hint": "Brain lobe primarily responsible for visual processing",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "number": 4,
+        "answer": "GYRUS",
+        "hint": "Ridge on the cerebral surface between two sulci",
+        "row": 1,
+        "col": 10
+      },
+      {
+        "number": 7,
+        "answer": "LESION",
+        "hint": "Abnormal damage or change in brain tissue",
+        "row": 3,
+        "col": 7
+      },
+      {
+        "number": 9,
+        "answer": "REFLEX",
+        "hint": "Involuntary and nearly instantaneous response to a stimulus",
+        "row": 5,
+        "col": 4
+      },
+      {
+        "number": 12,
+        "answer": "INHIBITION",
+        "hint": "Suppression of neuronal activity by neurotransmitters",
+        "row": 7,
+        "col": 2
+      },
+      {
+        "number": 14,
+        "answer": "GANGLION",
+        "hint": "Cluster of nerve cell bodies outside the central nervous system",
+        "row": 10,
+        "col": 5
+      },
+      {
+        "number": 15,
+        "answer": "AXON",
+        "hint": "Long projection that conducts electrical impulses away from the cell body",
+        "row": 12,
+        "col": 0
+      },
+      {
+        "number": 16,
+        "answer": "NEURON",
+        "hint": "Basic functional unit of the nervous system",
+        "row": 14,
+        "col": 5
+      }
+    ],
+    "down": [
+      {
+        "number": 2,
+        "answer": "AFFERENT",
+        "hint": "Carrying signals toward the central nervous system",
+        "row": 0,
+        "col": 8
+      },
+      {
+        "number": 3,
+        "answer": "FRONTAL",
+        "hint": "Brain lobe involved in decision making and planning",
+        "row": 0,
+        "col": 12
+      },
+      {
+        "number": 4,
+        "answer": "GLIA",
+        "hint": "Non-neuronal cells that support and protect neurons",
+        "row": 1,
+        "col": 10
+      },
+      {
+        "number": 5,
+        "answer": "SEROTONIN",
+        "hint": "Neurotransmitter regulating mood, sleep, and appetite",
+        "row": 1,
+        "col": 14
+      },
+      {
+        "number": 6,
+        "answer": "MYELIN",
+        "hint": "Fatty sheath that insulates axons for faster signal transmission",
+        "row": 3,
+        "col": 5
+      },
+      {
+        "number": 8,
+        "answer": "EXCITATION",
+        "hint": "Increase in neuronal activity caused by stimulation",
+        "row": 4,
+        "col": 2
+      },
+      {
+        "number": 10,
+        "answer": "TEMPORAL",
+        "hint": "Brain lobe involved in auditory processing and language",
+        "row": 6,
+        "col": 0
+      },
+      {
+        "number": 11,
+        "answer": "COGNITION",
+        "hint": "Mental processes including thinking, learning, and memory",
+        "row": 6,
+        "col": 10
+      },
+      {
+        "number": 13,
+        "answer": "SYNAPSE",
+        "hint": "Junction between two nerve cells",
+        "row": 8,
+        "col": 12
+      }
+    ]
+  }
+}
