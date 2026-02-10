@@ -1,5 +1,15 @@
 CLAUDE.md
 .claude/
+food.txt
+
+**output/**
+**prototype_output/**
+**input/**
+**prototype_input/**
+
+!**sample
+!sample.csv
+!sample.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

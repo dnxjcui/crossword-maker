@@ -13,10 +13,12 @@ Generate **one crossword at a time** from a rigid word+hint CSV, save it to `out
 
 ```
 ROOT/
-  scripts/        # thin CLI entrypoints
-  src/            # parsing, generation, scoring, serialization, GUI
-  input/          # input CSV files
-  output/         # generated crossword JSON files
+  scripts/            # thin CLI entrypoints
+  src/                # parsing, generation, scoring, serialization, GUI
+  input/              # input CSV files
+  output/             # generated crossword JSON files
+  prototype_input/    # prototype input files (words with /‑separated alternatives)
+  prototype_output/   # best-combination crossword JSON files
 ```
 
 ## Input Format (Rigid CSV)
@@ -89,6 +91,43 @@ python scripts/view.py --puzzle output/sample.json
 ```
 python scripts/app.py --input input/sample.csv --rows 15 --cols 15
 ```
+
+## Prototype Mode
+
+Find the best word combination when input lines have multiple word options.
+
+### Prototype Input Format
+
+Same as standard CSV, but the word field can have `/`-separated alternatives:
+
+```
+pals,our favorite restaurant
+hotdog/glizzy/glizz,first time experience
+italian/italianfood,dinner our first night
+```
+
+Place prototype input files in `prototype_input/`.
+
+### Run Prototype
+
+```
+python scripts/prototype.py --input prototype_input/johnson_city.txt --name johnson_city --rows 15 --cols 15 --seed 42 --attempts 50
+```
+
+* Evaluates every combination of word choices (Cartesian product)
+* Generates a crossword for each combination and compares scores
+* Saves the highest-scoring result to `prototype_output/<name>.json`
+* Also outputs `prototype_output/<name>.csv` — a `word,hint` CSV of the selected words, ready to edit hints and use as final input to `scripts/generate.py`
+* `--attempts` controls per-combination generation budget (default: 50, lower than standard 200 for faster iteration)
+
+Output JSON is fully compatible with the standard viewer (`scripts/view.py`).
+
+### Prototype Workflow
+
+1. Create a prototype input file with `/`-separated word alternatives
+2. Run `scripts/prototype.py` to find the best combination
+3. Edit hints in the output CSV (`prototype_output/<name>.csv`)
+4. Use the edited CSV as input to `scripts/generate.py` for the final crossword
 
 ## GUI MVP (Required)
 

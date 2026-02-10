@@ -1,0 +1,541 @@
+{
+  "seed": 1263963642,
+  "grid": {
+    "rows": 15,
+    "cols": 15,
+    "cells": [
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "E",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "A",
+        "L",
+        "L",
+        "I",
+        "G",
+        "A",
+        "T",
+        "O",
+        "R"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "E",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "A",
+        "P",
+        "A",
+        "R",
+        "T",
+        "M",
+        "E",
+        "N",
+        "T"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "H",
+        "#",
+        "E",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "O",
+        "#",
+        "L",
+        "I",
+        "Z",
+        "A",
+        "R",
+        "D",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "C",
+        "#",
+        "#",
+        "#",
+        "#",
+        "N",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "E",
+        "#",
+        "D",
+        "O",
+        "C",
+        "T",
+        "O",
+        "R",
+        "#",
+        "#",
+        "#",
+        "B",
+        "#"
+      ],
+      [
+        "P",
+        "I",
+        "A",
+        "N",
+        "O",
+        "#",
+        "O",
+        "#",
+        "#",
+        "#",
+        "#",
+        "C",
+        "#",
+        "A",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "N",
+        "#",
+        "G",
+        "#",
+        "M",
+        "O",
+        "U",
+        "N",
+        "T",
+        "A",
+        "I",
+        "N",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "P",
+        "#",
+        "#",
+        "#",
+        "#",
+        "R",
+        "#",
+        "A",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "B",
+        "#",
+        "S",
+        "U",
+        "N",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "N",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "O",
+        "#",
+        "#",
+        "T",
+        "#",
+        "#",
+        "#",
+        "B",
+        "R",
+        "E",
+        "A",
+        "D"
+      ],
+      [
+        "#",
+        "#",
+        "C",
+        "O",
+        "F",
+        "F",
+        "E",
+        "E",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "#",
+        "#",
+        "#",
+        "K",
+        "#",
+        "#",
+        "R",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#",
+        "#"
+      ]
+    ]
+  },
+  "metadata": {
+    "placed": 17,
+    "total": 18,
+    "best_attempt": 11,
+    "attempts": 50,
+    "intersections": 17,
+    "score": 0.5959,
+    "runtime_ms": 79.6
+  },
+  "prototype": {
+    "total_combinations": 108,
+    "evaluated": 108,
+    "skipped_duplicates": 0,
+    "best_combo_index": 50,
+    "selected_words": [
+      {
+        "chosen": "DOG",
+        "alternatives": [
+          "CAT",
+          "DOG",
+          "MOUSE"
+        ],
+        "hint": "animal with four legs"
+      },
+      {
+        "chosen": "ELEPHANT",
+        "alternatives": [
+          "ELEPHANT"
+        ],
+        "hint": "animal with long tube-ish body"
+      },
+      {
+        "chosen": "LIZARD",
+        "alternatives": [
+          "LIZARD"
+        ],
+        "hint": "reptile"
+      },
+      {
+        "chosen": "ALLIGATOR",
+        "alternatives": [
+          "ALLIGATOR"
+        ],
+        "hint": "exists in the Florida everglades"
+      },
+      {
+        "chosen": "BANANA",
+        "alternatives": [
+          "APPLE",
+          "BANANA",
+          "ORANGE"
+        ],
+        "hint": "fruit you can peel"
+      },
+      {
+        "chosen": "COFFEE",
+        "alternatives": [
+          "COFFEE"
+        ],
+        "hint": "hot beverage"
+      },
+      {
+        "chosen": "BOOK",
+        "alternatives": [
+          "BOOK"
+        ],
+        "hint": "reading material"
+      },
+      {
+        "chosen": "PIANO",
+        "alternatives": [
+          "PIANO"
+        ],
+        "hint": "musical instrument"
+      },
+      {
+        "chosen": "OCEAN",
+        "alternatives": [
+          "OCEAN",
+          "SEA",
+          "LAKE"
+        ],
+        "hint": "body of water"
+      },
+      {
+        "chosen": "MOUNTAIN",
+        "alternatives": [
+          "MOUNTAIN"
+        ],
+        "hint": "geographic feature"
+      },
+      {
+        "chosen": "SUN",
+        "alternatives": [
+          "SUN"
+        ],
+        "hint": "celestial body"
+      },
+      {
+        "chosen": "CAR",
+        "alternatives": [
+          "CAR"
+        ],
+        "hint": "vehicle with wheels"
+      },
+      {
+        "chosen": "APARTMENT",
+        "alternatives": [
+          "HOUSE",
+          "APARTMENT"
+        ],
+        "hint": "place to live"
+      },
+      {
+        "chosen": "BREAD",
+        "alternatives": [
+          "BREAD"
+        ],
+        "hint": "baked good"
+      },
+      {
+        "chosen": "RED",
+        "alternatives": [
+          "RED"
+        ],
+        "hint": "primary color"
+      },
+      {
+        "chosen": "WINTER",
+        "alternatives": [
+          "WINTER"
+        ],
+        "hint": "season of the year"
+      },
+      {
+        "chosen": "DOCTOR",
+        "alternatives": [
+          "DOCTOR"
+        ],
+        "hint": "helping profession"
+      },
+      {
+        "chosen": "COMPUTER",
+        "alternatives": [
+          "COMPUTER",
+          "PHONE"
+        ],
+        "hint": "electronic device"
+      }
+    ],
+    "total_runtime_ms": 8728.8
+  },
+  "clues": {
+    "across": [
+      {
+        "number": 2,
+        "answer": "ALLIGATOR",
+        "hint": "exists in the Florida everglades",
+        "row": 1,
+        "col": 6
+      },
+      {
+        "number": 3,
+        "answer": "APARTMENT",
+        "hint": "place to live",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "number": 6,
+        "answer": "LIZARD",
+        "hint": "reptile",
+        "row": 5,
+        "col": 4
+      },
+      {
+        "number": 7,
+        "answer": "DOCTOR",
+        "hint": "helping profession",
+        "row": 7,
+        "col": 4
+      },
+      {
+        "number": 10,
+        "answer": "PIANO",
+        "hint": "musical instrument",
+        "row": 8,
+        "col": 0
+      },
+      {
+        "number": 12,
+        "answer": "MOUNTAIN",
+        "hint": "geographic feature",
+        "row": 9,
+        "col": 6
+      },
+      {
+        "number": 14,
+        "answer": "SUN",
+        "hint": "celestial body",
+        "row": 11,
+        "col": 5
+      },
+      {
+        "number": 15,
+        "answer": "BREAD",
+        "hint": "baked good",
+        "row": 12,
+        "col": 10
+      },
+      {
+        "number": 16,
+        "answer": "COFFEE",
+        "hint": "hot beverage",
+        "row": 13,
+        "col": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "answer": "ELEPHANT",
+        "hint": "animal with long tube-ish body",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "number": 4,
+        "answer": "RED",
+        "hint": "primary color",
+        "row": 3,
+        "col": 9
+      },
+      {
+        "number": 5,
+        "answer": "OCEAN",
+        "hint": "body of water",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "number": 7,
+        "answer": "DOG",
+        "hint": "animal with four legs",
+        "row": 7,
+        "col": 4
+      },
+      {
+        "number": 8,
+        "answer": "COMPUTER",
+        "hint": "electronic device",
+        "row": 7,
+        "col": 6
+      },
+      {
+        "number": 9,
+        "answer": "BANANA",
+        "hint": "fruit you can peel",
+        "row": 7,
+        "col": 13
+      },
+      {
+        "number": 11,
+        "answer": "CAR",
+        "hint": "vehicle with wheels",
+        "row": 8,
+        "col": 11
+      },
+      {
+        "number": 13,
+        "answer": "BOOK",
+        "hint": "reading material",
+        "row": 11,
+        "col": 3
+      }
+    ]
+  }
+}
